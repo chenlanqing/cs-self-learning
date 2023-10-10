@@ -62,6 +62,7 @@ theme:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - footnotes
 
 plugins:
   - i18n:
@@ -95,6 +96,7 @@ plugins:
           计算机网络: Computer Networking
           数据库系统: Database Systems
           编译原理: Compilers
+          程序语言设计: Programming Language
           计算机图形学: Computer Graphics
           Web开发: Web Development
           数据科学: Data Science
@@ -105,7 +107,9 @@ plugins:
           机器学习进阶: Advanced Machine Learning
           后记: Postscript
   - search:
-      lang: ja
+      lang:
+        - zh
+        - en
   - git-revision-date-localized
   - minify:
       minify_html: true
@@ -125,6 +129,7 @@ nav:
   - 必学工具:
       - 翻墙: "必学工具/翻墙.md"
       - Vim: "必学工具/Vim.md"
+      - Emacs: "必学工具/Emacs.md"
       - Git: "必学工具/Git.md"
       - GitHub: "必学工具/GitHub.md"
       - "GNU Make": "必学工具/GNU_Make.md"
@@ -150,6 +155,7 @@ nav:
       - "The Information Theory, Pattern Recognition, and Neural Networks": "数学进阶/The_Information_Theory_Pattern_Recognition_and_Neural_Networks.md"
   - 编程入门:
       - "MIT-Missing-Semester": "编程入门/MIT-Missing-Semester.md"
+      - "Sysadmin DeCal": "编程入门/DeCal.md"
       - "Harvard CS50: This is CS50x": "编程入门/CS50.md"
       - "CS50P: CS50's Introduction to Programming with Python": "编程入门/CS50P.md"
       - "UCB CS61A: Structure and Interpretation of Computer Programs": "编程入门/CS61A.md"
@@ -159,6 +165,8 @@ nav:
       - "Stanford CS110L: Safety in Systems Programming": "编程入门/CS110L.md"
       - "AmirKabir University of Technology AP1400-2: Advanced Programming": "编程入门/AUT1400.md"
       - "Haskell MOOC": "编程入门/Haskell-MOOC.md"
+      - "Cornell CS3110: OCaml Programming Correct + Efficient + Beautiful": "编程入门/CS3110.md"
+      - "KAIST CS431: Concurrent Programming": "编程入门/cs431.md"
   - 电子基础:
       - "EE16A&B: Designing Information Devices and Systems I&II": "电子基础/EE16.md"
       - "UCB EE120 : Signal and Systems": "电子基础/signal.md"
@@ -174,13 +182,15 @@ nav:
       - "UCB CS169: software engineering": "软件工程/CS169.md"
   - 体系结构:
       - "Coursera: Nand2Tetris": "体系结构/N2T.md"
-      - "Digital Design and Computer Architecture": "体系结构/DDCA.md"
       - "UCB CS61C: Great Ideas in Computer Architecture": "体系结构/CS61C.md"
       - "CMU 15-213: CSAPP": "体系结构/CSAPP.md"
+      - "ETHz: Digital Design and Computer Architecture": "体系结构/DDCA.md"
+      - "ETHz: Computer Architecture": "体系结构/CA.md"
   - 操作系统:
       - "MIT 6.S081: Operating System Engineering": "操作系统/MIT6.S081.md"
       - "UCB CS162: Operating System": "操作系统/CS162.md"
       - "NJU OS: Operating System Design and Implementation": "操作系统/NJUOS.md"
+      - "HIT OS: Operating System": "操作系统/HITOS.md"
   - 并行与分布式系统:
       - "CMU 15-418/Stanford CS149: Parallel Computing": "并行与分布式系统/CS149.md"
       - "MIT 6.824: Distributed System": "并行与分布式系统/MIT6.824.md"
@@ -189,6 +199,7 @@ nav:
       - "MIT 6.858: Computer System Security": "系统安全/MIT6.858.md"
       - "ASU CSE365: Introduction to Cybersecurity": "系统安全/CSE365.md"
       - "ASU CSE466: Computer Systems Security": "系统安全/CSE466.md"
+      - "SU SEED Labs": "系统安全/SEEDLabs.md"
   - 计算机网络:
       - "USTC Computer Networking:A Top-Down Approach": "计算机网络/topdown_ustc.md"
       - "Computer Networking: A Top-Down Approach": "计算机网络/topdown.md"
@@ -201,6 +212,9 @@ nav:
       - "CMU 15-799: Special Topics in Database Systems": "数据库系统/15799.md"
   - 编译原理:
       - "Stanford CS143: Compilers": "编译原理/CS143.md"
+      - "NJU 软件分析": "编译原理/NJU-SoftwareAnalysis.md"
+  - 程序语言设计:
+      - "Stanford CS242: Programming Languages": "程序语言设计/CS242.md"
   - 计算机图形学:
       - "GAMES101": "计算机图形学/GAMES101.md"
       - "GAMES202": "计算机图形学/GAMES202.md"
@@ -211,6 +225,7 @@ nav:
       - "MIT web development course": "Web开发/mitweb.md"
       - "Stanford CS142: Web Applications": "Web开发/CS142.md"
       - "University of Helsinki: Full Stack open 2022": "Web开发/fullstackopen.md"
+      - "CS571 Building UI (React & React Native)": "Web开发/CS571.md"
   - 数据科学:
       - "UCB Data100: Principles and Techniques of Data Science": "数据科学/Data100.md"
   - 人工智能:
@@ -225,6 +240,7 @@ nav:
       - "CMU 10-414/714: Deep Learning Systems": "机器学习系统/CMU10-414.md"
       - "Machine Learning Compilation": "机器学习系统/MLC.md"
   - 深度学习:
+      - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "深度学习/EECS498-007.md"
       - "Coursera: Deep Learning": "深度学习/CS230.md"
       - "国立台湾大学：李宏毅机器学习": "深度学习/LHY.md"
       - "Stanford CS231n: CNN for Visual Recognition": "深度学习/CS231.md"

@@ -20,6 +20,8 @@ IDE (Integrated Development Environment)：集成开发环境，说白了就是�
 
 [Vim](必学工具/Vim.md)：一款命令行编辑工具。这是一个学习曲线有些陡峭的编辑器，不过学会它我觉得是非常有必要的，因为它将极大地提高你的开发效率。现在绝大多数 IDE 也都支持 Vim 插件，让你在享受现代开发环境的同时保留极客的炫酷（yue）。
 
+[Emacs](必学工具/Emacs.md)：与 Vim 齐名的经典编辑器，同样具有极高的开发效率，同时具有更为强大的扩展性，它既可以配置为一个轻量编辑器，也可以扩展成一个个人定制的 IDE，甚至可以有更多奇技淫巧。
+
 [Git](必学工具/Git.md)：一款代码版本控制工具。Git的学习曲线可能更为陡峭，但出自 Linux 之父 Linus 之手的 Git 绝对是每个学 CS 的童鞋必须掌握的神器之一。
 
 [GitHub](必学工具/GitHub.md)：基于 Git 的代码托管平台。全世界最大的代码开源社区，大佬集聚地。
@@ -222,9 +224,11 @@ IDE (Integrated Development Environment)：集成开发环境，说白了就是�
 
 [MIT 6.S081: Operating System Engineering](操作系统/MIT6.S081.md)，MIT 著名 PDOS 实验室出品，11 个 Project 让你在一个实现非常优雅的类Unix操作系统xv6上增加各类功能模块。这门课也让我深刻认识到，做系统不是靠 PPT 念出来的，是得几万行代码一点点累起来的。
 
-[UCB CS162: Operating System](操作系统/CS162.md)，伯克利的操作系统课，采用和 Stanford 同样的 Project —— 一个教学用操作系统 Pintos。我作为北京大学2022年春季学期操作系统实验班的助教，引入并改善了这个 Project，课程资源也会全部开源，具体参见[课程网站](https://https://pku-os.github.io/sp22/)。
+[UCB CS162: Operating System](操作系统/CS162.md)，伯克利的操作系统课，采用和 Stanford 同样的 Project —— 一个教学用操作系统 Pintos。我作为北京大学2022年和2023年春季学期操作系统实验班的助教，引入并改善了这个 Project，课程资源也会全部开源，具体参见[课程网站](https://pku-os.github.io)。
 
 [NJU: Operating System Design and Implementation](操作系统/NJUOS.md)，南京大学的蒋炎岩老师开设的操作系统课程。蒋老师以其独到的系统视角结合丰富的代码示例将众多操作系统的概念讲得深入浅出，此外这门课的全部课程内容都是中文的，非常方便大家学习。
+
+[HIT OS: Operating System](操作系统/HITOS.md)，哈尔滨工业大学的李治军老师开设的中文操作系统课程。李老师的课程基于 Linux 0.11 源码，十分注重代码实践，并站在学生视角将操作系统的来龙去脉娓娓道来。
 
 ### 并行与分布式系统
 
@@ -249,6 +253,8 @@ IDE (Integrated Development Environment)：集成开发环境，说白了就是�
 [ASU CSE365: Introduction to Cybersecurity](系统安全/CSE365.md) 亚利桑那州立大学的 Web 安全课程，主要涉及注入、汇编与密码学的内容。
 
 [ASU CSE466: Computer Systems Security](系统安全/CSE466.md) 亚利桑那州立大学的系统安全课程，涉及内容全面。门槛较高，需要对 Linux, C 与 Python 充分熟悉。
+
+[SU SEED Labs](系统安全/SEEDLabs.md)  雪城大学的网安课程，由 NSF 提供130万美元的资金支持，为网安教育开发了动手实践性的实验练习（称为 SEED Lab）。课程理论教学和动手实践并重，包含详细的开源讲义、视频教程、教科书（被印刷为多种语言）、开箱即用的基于虚拟机和 docker 的攻防环境等。目前全球有1050家研究机构在使用该项目。涵盖计算机和信息安全领域的广泛主题，包括软件安全、网络安全、Web 安全、操作系统安全和移动应用安全。
 
 #### 实践课程
 
@@ -321,6 +327,8 @@ Berkeley 作为著名开源数据库 postgres 的发源地也不遑多让，[UCB
 当然因为深度学习领域发展非常迅速，已经拥有了众多研究分支，如果想要进一步深入，可以按需学习下面罗列的代表课程，
 
 #### 计算机视觉
+
+[UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision](深度学习/EECS498-007.md)
 
 [Stanford CS231n: CNN for Visual Recognition](深度学习/CS231.md)
 
